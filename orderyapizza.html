@@ -1,0 +1,87 @@
+<html>
+    <head>
+    </head>
+    <body align="center" style="background-color: rgb(163, 79, 241)"
+    >
+        <h1> HERE'S YA CHOICES</h1>
+        <form action="readypizza.html">
+            <p>DELIVERY OR CARRYOUT:
+            <br>
+            <input type="checkbox" name="pickup" value="DELIVERY" /> Delivery
+            <input type="checkbox" name="pickup" value="CARRYOUT" /> Carryout
+            </p>
+        <br>
+        <br>
+        <table border="1" cellpadding = "5" cellspacing = "5" style="width:100%" style="background-blend-mode: exclusion">
+            <tr>
+                <th>SMALL</th>
+                <th>MEDIUM</th>
+                <th>LARGE</th>
+                <th>XTRA LARGE</th>
+            </tr>
+            <tr>
+                <td>4 slices</td>
+                <td>6 slices</td>
+                <td>10 slices</td>
+                <td>11 slices</td>
+            </tr>
+            <tr>
+                <td>$10.99</td>
+                <td>$20.99</td>
+                <td>$25.99</td>
+                <td>$30.99</td>
+            </tr>
+        </table>
+            <p>WHAT SIZE PIZZA?
+            <select name="format">
+                <option value="SMALL">SMALL</option>
+                <option value="MEDIUM">MEDIUM</option>
+                <option value="LARGE">LARGE</option>
+                <option value="XTRA LARGE">XTRA LARGE</option>
+            </select>
+            </p>
+        <p>WHAT TOPPINGS ON YA PIZZA?</p>
+        <select name="toppings" size="7"
+            multiple="multiple">
+            <option value="Pepperoni">Pepperoni</option>
+            <option value="Beef">Beef</option>
+            <option value="Sausage">Sausage</option>
+            <option value="Ham">Ham</option>
+            <option value="Chicken">Chicken</option>
+            <option value="Tomatoes">Tomatoes</option>
+            <option value="Onions">Onions</option>
+            <option value="Red Peppers">Red Peppers</option>
+            <option value="Green Peppers">Green Peppers</option>
+            <option value="Spinach">Spinach</option>
+            <option value="Pineapple">Pineapple</option>
+            <option value="Mushroom">Mushroom</option>
+            <option value="Olive">Olive</option>
+            <option value="Feta Cheese">Feta Cheese</option>
+            <option value="Bacon">Bacon</option>
+        </select>
+        <p>Special Instructions:</p>
+        <textarea name="comments" col="20" rowa="4">Leave Instructions...</textarea>
+        <br>
+        <hr />
+       
+        <fieldset>
+                <legend>Contact details</legend>
+                <label>Email:
+                <br>
+                <input type="text" name="email" /></label>
+                <br>
+                <label>Phone:
+                <br>
+                <input type="text" name="phone" /></label>
+                <br>
+                <label>Address:
+                <br>
+                <input type:"text" name="address"/></label>
+            </fieldset>
+        <br>
+        <a href="#top">back to da tizzop</a> 
+        <br>
+        <input type="submit" value="ORDER YA PIZZA, NOW!!!"/>
+        </form>
+    </body>
+</html>
